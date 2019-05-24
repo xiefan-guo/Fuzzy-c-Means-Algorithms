@@ -259,7 +259,7 @@ def wfcm(data, cluster_number, m, w, C):
 			#print ("结束抽样的聚类")
 			break
 
-	#print ("迭代次数：" + str(iteration_num))
+	# print ("迭代次数：" + str(iteration_num))
 	return U, C
 
 
@@ -375,4 +375,4 @@ if __name__ == '__main__':
 	final_location = extension(datafull, 3, 2, final_V)
 	# 准确度分析
 	print (checker_iris(final_location))
-	# print ("用时：{0}".format(time.time() - start))
+	print ("用时：{0}".format(time.time() - start))
